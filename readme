@@ -1,6 +1,7 @@
 # 使い方
 ## 手順
 1. cp project_template {任意のディレクトリ名}
+2. touch .clasprc.json
 2. docker-compose up -d --build
 3. docker-compose exec clasp-sample bash
 4. clasp login --no-localhost
