@@ -1,2 +1,2 @@
-FROM node:12.16.3
+FROM node:16
 RUN npm i @google/clasp -g
